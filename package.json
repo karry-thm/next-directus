@@ -7,6 +7,7 @@
   "workspaces":["packages/*"],
   "scripts": {
     "start:cms": "yarn workspace @next-directus/cms run start",
+    "start:web": "yarn workspace @next-directus/web run build && yarn workspace @next-directus/web run start",
     "dev:web": "yarn workspace @next-directus/web run dev"
   }
 }
