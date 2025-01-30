@@ -1,0 +1,12 @@
+{
+  "name": "next-directus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces":["packages/*"],
+  "scripts": {
+    "start:cms": "yarn workspace @next-directus/cms run start",
+    "dev:web": "yarn workspace @next-directus/web run dev"
+  }
+}
